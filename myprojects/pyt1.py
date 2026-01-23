@@ -1,0 +1,9 @@
+name="jack"
+print(len(name))
+print("hello"[4])
+print(2+3)
+print(5-4)
+print(10/5)
+print(10*2)
+print(2//3)
+print(2**3)

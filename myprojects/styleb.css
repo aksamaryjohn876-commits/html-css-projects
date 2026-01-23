@@ -1,0 +1,97 @@
+/* Base Typography */
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.7;
+}
+
+/* Header */
+.site-header {
+    background-color: #1f2933;
+    color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav a {
+    color: #ffffff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    opacity: 0.8;
+}
+
+/* Layout Container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+/* Blog Card Component */
+.blog-card {
+    background-color: #ffffff;
+    padding: 35px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+}
+
+/* Typography Hierarchy */
+.blog-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.blog-subtitle {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.blog-meta {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 25px;
+}
+
+.blog-text {
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+/* Reusable Button */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #1f2933;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #374151;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #1f2933;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+    font-size: 14px;
+}
